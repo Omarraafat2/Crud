@@ -1,0 +1,290 @@
+body {
+    background: #222529;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.notif-badge {
+    width: 10px;
+    height: 10px;
+    background: #d6293e;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    z-index: 1;
+}
+.animation-blink {
+    -webkit-animation: blink 2s infinite;
+    animation: blink 2s infinite;
+}
+
+.text-none-ul{
+    text-decoration: none;
+    list-style: none;
+}
+nav li a:hover {
+    background-color: #2d2f3c;
+}
+
+nav text:hover {
+    background-color: #222529;
+}
+
+.navbar-main {
+    background: #222529;
+}
+
+.beel-run {
+    width: 100px;
+    height: 100ps;
+    border-radius: 50%;
+    background-color: red;
+}
+
+div .omar {
+    font-size: 400%;
+}
+
+/* new item */
+.bg-bluer {
+    backdrop-filter: blur(5px);
+
+}
+
+.direction-colm {
+    position: absolute;
+    top: 0;
+    left: -4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.move {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    color: red;
+}
+
+.move-4 {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    color: red;
+}
+
+.move-3 {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    color: red;
+}
+
+.move-2 {
+    position: absolute;
+    top: 35%;
+    right: -3%;
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.card-main {
+    background-color: #191b1d;
+
+}
+
+.serch {
+    background-color: white;
+    transition: all 0.6s ease;
+
+}
+
+.serch:hover {
+    background-color: rgb(60, 50, 70);
+}
+
+.fill-color {
+    fill: rgb(221, 221, 5);
+}
+
+.Check {
+    position: absolute;
+    width: 80%;
+    top: 75%;
+
+}
+
+
+div .icon-bef {
+    width: 50px;
+    height: 50px;
+    background-color: ;
+}
+
+.avatar {
+    position: relative;
+    top: 50%;
+    left: -10%;
+}
+
+.avatar2 {
+    position: relative;
+    top: 50%;
+    left: -20%;
+}
+
+.avatar3 {
+    position: relative;
+    top: 50%;
+    left: -30%;
+}
+
+.avatar4 {
+    position: relative;
+    top: 50%;
+    left: -35%;
+}
+
+.lik {
+    width: 40px;
+    height: 40px;
+    font-weight: 100;
+}
+
+.mb-n5 {
+    margin: bottom 3rem;
+    ;
+}
+
+.me-n4 {
+    margin-right: 1.6rem;
+}
+
+.locatioon {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+div .hoteles img {
+    transition: all 0.5s;
+}
+
+div .hoteles:hover img {
+    transform: scale(1.05);
+}
+
+.text-hotel {
+    color: white;
+    transition: all 0.6s ease;
+
+}
+
+.text-hotel:hover {
+    color: #67707e;
+
+}
+
+.prodact {
+    transition: all 0.6s ease;
+
+}
+
+div .prodact-1:hover img {
+    opacity: 0.4;
+}
+
+.move-svg {
+    position: absolute;
+    top: 10%;
+    left: 26%;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.emote {
+    position: absolute;
+    top: 15%;
+    left: -5%;
+    width: 80px;
+    height: 70px;
+    background-color: orangered;
+}
+
+.text-nav {
+    color: white;
+    transition: all 0.6s ease;
+    text-decoration: none;
+}
+.text-nav:hover {
+    color: #2f153f;
+    background-color:  #472c58;
+
+}
+.text-color {
+    color: white;
+    transition: all 0.6s ease;
+    text-decoration: none;
+}
+
+
+.text-color:hover {
+    color: #2b2091;
+
+}
+
+div a:hover h4 {
+    color: #7a6deb;
+}
+
+.type-foot {
+    color: #67707e;
+    ;
+
+}
+
+
+.text-color-foot {
+    color: #67707e;
+    text-decoration: none;
+    transition: all 0.6s ease;
+
+}
+
+.text-color-foot:hover {
+    color: #2b2091;
+}
+
+.bg-help {
+    background-color: #2a2e33;
+}
+
+.bg-foter {
+    background-color: #0b0a12;
+}
+
+.bg-facebook {
+    background-color: #1f0cce;
+}
+
+.bg-instgram {
+    background-color: #94395d;
+}
+
+.bg-twitter {
+    background-color: #4867f1;
+}
+
+.bg-linkedin {
+    background-color: #272e53;
+}

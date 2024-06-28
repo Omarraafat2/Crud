@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="cruds container">
+        <div class="head row my-3 text-center">
+          <div
+            class="pb-4 text-center tzbeta col-12 justify-content-center align-items-center mx-auto"
+          >
+            <div class="position-relative container py-4">
+              <h1 class="position-relative">Bookmarker</h1>
+            </div>
+          </div>
+          <h2 class="my-4">
+            <i class="fa-solid fa-bookmark"></i>
+            Bookmark your favorite sites
+            <i class="fa-solid fa-bookmark"></i>
+          </h2>
+        </div>
+        <div class="inputs container tzbeta2">
+          <div class="m-auto w-100">
+            <div>
+              <i class="fa-solid fa-book-bookmark ps-1 pb-2 pe-2"></i>Site Name
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control shadow-none"
+                id="bookmarkName"
+                placeholder="name@example.com"
+                oninput="validTestName()"
+                
+              />
+              <label for="bookmarkName">Bookmark Name</label>
+            </div>
+          </div>
+          <div class="m-auto w-100">
+            <div><i class="fa-solid fa-link ps-1 pb-2 pe-2"></i>Site URL</div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control shadow-none"
+                id="webUrl"
+                placeholder="name@example.com"
+                oninput="validTestUrl()"
+              
+              />
+              <label for="webUrl">Website URL</label>
+            </div>
+          </div>
+          <button
+            id="submittt"
+            onclick="submit()"
+            class="px-4 py-1 fs-3 d-flex justify-content-center mx-auto my-3"
+          >
+            Submit
+          </button>
+          <button  class="
+          my-4
+          btn fw-bolder text-white btn-oren-1 bg-warning m-auto
+          d-flex align-content-center justify-content-center px-5
+          d-none
+          " onclick="updatepro()"  id="updateBtn">Update</button>
+        </div>
+        <!-- <div
+          class="outputs row justify-content-center my-4 py-2 bg-white text-center rounded"
+        >
+          <div class="col-3 fw-bolder">index</div>
+          <div class="col-3 fw-bolder">Website Name</div>
+          <div class="col-3 fw-bolder">Vist</div>
+          <div class="col-3 fw-bolder">Delete</div>
+        </div> -->
+        <div id="deleteAll"></div>
+     
+        <table>
+          <tr>
+            <th>Index</th>
+            <th>websiteName</th>
+            <th>Vist</th>
+            <th>upDate</th>
+            <th>Delete</th>
+          </tr>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

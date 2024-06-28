@@ -1,0 +1,100 @@
+body {
+    background-color: rgba(163, 70, 70, 0.516);
+
+    .pacifico-regular {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 4px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+.tzbeta:hover ::before,
+.tzbeta.active ::before {
+    height: 60%;
+    ;
+}
+
+.tzbeta {
+    margin: auto;
+    border-bottom: 1px dashed rgb(0, 0, 0);
+}
+
+.tzbeta2 {
+    border-bottom: 1px dashed rgb(0, 0, 0);
+}
+
+h1 {
+    width: 270px;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Pacifico", cursive;
+
+    color: rgb(113, 37, 37);
+}
+
+h2 {
+    font-family: "Righteous", cursive;
+    background-image: linear-gradient(to right, #0b0a5f, #5d29ecda);
+    /* for webkit need rev */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+button {
+    background: #51153a;
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0, 5s;
+}
+
+button:hover {
+    background: #832469;
+    letter-spacing: 1px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+table th {
+    text-transform: uppercase;
+
+}
+
+th,
+td {
+    padding: 10px;
+    color: #000000;
+}
+
+table button {
+    width: 50%;
+}
+
+table button:hover {
+    letter-spacing: normal;
+}
